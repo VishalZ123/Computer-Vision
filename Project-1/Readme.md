@@ -44,8 +44,7 @@ Image blending has a wide range of applications in various fields, including pho
 
 ### Cut Paste
 It is a simple cutting and pasting the pixels of the source image to the destination image.  
-<center><img src='./images/apple.jpg' height=300 width=300>
-<img src='./images/orange.jpg' height=300 width=300></center>  
+<center><img src='./images/apple.jpg' height=300 width=300><img src='./images/orange.jpg' height=300 width=300></center>  
 <center><img src='./images/out.jpg' height=300 width=300></center>  
 
 ### Aplha Blending
@@ -59,7 +58,7 @@ In mMlti-Band blending we use image pyramids, which are a multi-resolution repre
 
 ### Poisson Blending
 
-*   Introduction:-
+*   <b>Introduction</b>:-
 
   *   The method was first introduced by Patrick Pérez, Michel Gangnet, and Andrew Blake in their paper titled "Poisson Image Editing" in 2003.
 
@@ -67,11 +66,9 @@ In mMlti-Band blending we use image pyramids, which are a multi-resolution repre
 
   *   In the context of image processing, the Poisson equation can be used to compute a new image that is a combination of two input images.
 
-<p align="center">
-  <img src="https://miro.medium.com/v2/resize:fit:1400/1*74iHNnl_0BY-41KduRMuhw.png" alt="Source-Target Sync" />
-</p>
+  <img src="https://miro.medium.com/v2/resize:fit:1400/1*74iHNnl_0BY-41KduRMuhw.png" height=300 width=400 />  
 
-*   Underlying Mathematics:-
+*   <b>Underlying Mathematics</b>:-
 
   *    In the one-dimensional case, there was only a derivative in the x-direction, but for two dimensions, we must also take into account the derivative in the y-direction.
 
