@@ -1,8 +1,6 @@
 import numpy as np
 import cv2, sys
 import matplotlib.pyplot as plt
-from math import log10, sqrt
-from skimage.metrics import structural_similarity as compare_ssim
 from masking import draw_mask
 
 def blend(img_dest, img_src, mask, kernel=(1, 1)):
