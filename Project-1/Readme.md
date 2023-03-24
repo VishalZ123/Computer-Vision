@@ -44,9 +44,7 @@ Image blending has a wide range of applications in various fields, including pho
 
 ### Cut Paste
 It is a simple cutting and pasting the pixels of the source image to the destination image.  
-<center><img src='./images/apple.jpg' height=300 width=300><img src='./images/orange.jpg' height=300 width=300></center>  
-<center><img src='./images/out.jpg' height=300 width=300></center>  
-
+<img src='./images/apple.jpg' height=300 width=300><img src='./images/orange.jpg' height=300 width=300><img src='./images/out.jpg' height=300 width=300>  
 ### Aplha Blending
 In cutting pasting, the boundaries are abrupt, thus there are visible artifacts. In this methods, we apply a gaussian blur to the mask, so that the transitions between the object image and the scene could be smooth.  
 <center><img src='./images/alpha_blending.png' height=500 width=350 style='background-color: white'></center>  
